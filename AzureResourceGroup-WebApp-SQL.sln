@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AzureResourceGroup-WebApp-SQL", "AzureResourceGroup-WebApp-SQL\AzureResourceGroup-WebApp-SQL.deployproj", "{D81A2E65-8077-4796-ACF2-773E7587D46B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D81A2E65-8077-4796-ACF2-773E7587D46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D81A2E65-8077-4796-ACF2-773E7587D46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D81A2E65-8077-4796-ACF2-773E7587D46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D81A2E65-8077-4796-ACF2-773E7587D46B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A621EA79-1FCF-482A-A9C0-20A5683714C6}
+	EndGlobalSection
+EndGlobal
