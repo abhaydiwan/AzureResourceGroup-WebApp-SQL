@@ -12,7 +12,7 @@ pool:
 steps:
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '$(system.defaultworkingdirectory)/_abhaydiwan_AzureResourceGroup-WebApp-SQL/AzureResourceGroup-WebApp-SQL/AzureResourceGroup-WebApp-SQL' 
+    SourceFolder: '$(Build.SourcesDirectory)/_abhaydiwan_AzureResourceGroup-WebApp-SQL/AzureResourceGroup-WebApp-SQL/AzureResourceGroup-WebApp-SQL' 
     Contents: '*.json'
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
 - task: PublishBuildArtifacts@1
